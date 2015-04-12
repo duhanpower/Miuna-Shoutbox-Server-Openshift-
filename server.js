@@ -1,4 +1,4 @@
-var origin = 'tricksduniya.com:80';	port = process.env.OPENSHIFT_NODEJS_PORT,
+var	port = process.env.OPENSHIFT_NODEJS_PORT,
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
 var http = require('http'),
